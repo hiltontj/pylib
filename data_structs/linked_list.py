@@ -7,13 +7,13 @@ class LinkedList:
     def __init__(self):
         self.head = None
     
-    def push(val):
+    def push(self, val):
         temp = self.head
         self.head = Node(val)
         if temp is not None:
             self.head.next = temp
 
-    def pop():
+    def pop(self):
         temp = self.head
         self.head = self.head.next
-        return temp
+        return temp.data
