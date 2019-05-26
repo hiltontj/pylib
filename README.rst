@@ -3,9 +3,8 @@ Python Library
 
 Contains different data structures. Eg. LinkedList
 
-Usage:
+Usage::
 
-::
 import data_structs as ds
 ll = ds.LinkedList()
 
